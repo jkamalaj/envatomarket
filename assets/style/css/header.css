@@ -1,0 +1,182 @@
+.head {
+  width: 100%;
+  height: 54px;
+  background-color: rgb(26, 26, 26);
+}
+.head .market-name {
+  position: relative;
+}
+.head .market-name a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 30px;
+  padding-top: 8px;
+}
+.head .market-name a img {
+  width: 15px;
+  height: 15px;
+}
+.head .market-name .envato {
+  color: white;
+}
+.head .market-name .market {
+  color: rgb(145, 194, 89);
+}
+.head .buy-now {
+  position: relative;
+  padding-top: 10px;
+}
+.head .buy-now button {
+  display: block;
+  margin: auto;
+  font-size: 14px;
+  position: absolute;
+  right: 30px;
+  width: 100px;
+  height: 35px;
+  background-color: rgb(101, 160, 42);
+}
+
+.breadmeal {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+.breadmeal a {
+  text-decoration: none;
+}
+.breadmeal .logo {
+  position: relative;
+}
+.breadmeal .logo img {
+  width: 174px;
+  height: 27px;
+}
+.breadmeal .logo a {
+  position: absolute;
+  left: 0px;
+  padding-top: 25px;
+}
+.breadmeal .bar ul {
+  padding-top: 25px;
+  padding-left: 0px;
+}
+.breadmeal .bar ul li {
+  position: relative;
+}
+.breadmeal .bar ul li::after {
+  content: "";
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -3px;
+  background-color: #7E5A4E;
+  transition: 0.3s ease;
+}
+.breadmeal .bar ul li:hover::after {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+}
+.breadmeal .bar ul li:hover a {
+  color: #ab5a3f;
+}
+.breadmeal .bar ul .menu {
+  position: relative;
+}
+.breadmeal .bar ul .menu ul {
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+  border-left: 5px solid #7E5A4E;
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  transition: 0.3s;
+}
+.breadmeal .bar ul .menu ul li {
+  margin-bottom: 5px;
+}
+.breadmeal .bar ul .menu:hover ul {
+  top: 35px;
+  opacity: 1;
+}
+.breadmeal .bar ul .pages {
+  position: relative;
+}
+.breadmeal .bar ul .pages ul {
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+  border-left: 6px solid #7E5A4E;
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  transition: 0.3s;
+}
+.breadmeal .bar ul .pages ul li {
+  margin: 20px;
+}
+.breadmeal .bar ul .pages:hover ul {
+  top: 35px;
+  opacity: 1;
+}
+.breadmeal .bar ul a {
+  font-size: 15px;
+  color: #7E5A4E;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.breadmeal .contact {
+  position: relative;
+}
+.breadmeal .contact .order {
+  position: absolute;
+  left: 160px;
+  padding-left: 10px;
+  background-color: #7E5A4E;
+  width: 260px;
+  height: 80px;
+}
+.breadmeal .contact .orders {
+  text-align: center;
+}
+.breadmeal .contact .phone-icon {
+  position: relative;
+  padding-top: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% 2px solid white;
+  left: 10px;
+}
+.breadmeal .contact .phone-icon i {
+  color: white;
+  font-size: 20px;
+}
+.breadmeal .contact .order-now {
+  padding-top: 10px;
+  position: relative;
+}
+.breadmeal .contact .order-now a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.breadmeal .contact .order-now a h4 {
+  position: relative;
+  top: 5px;
+  left: 6px;
+}
+.breadmeal .contact .order-now a p {
+  position: relative;
+  left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+  .bar {
+    display: none !important;
+  }
+}/*# sourceMappingURL=header.css.map */

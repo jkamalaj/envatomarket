@@ -1,0 +1,154 @@
+.head {
+  width: 100%;
+  height: 54px;
+  background-color: rgb(26, 26, 26);
+}
+.head .market-name {
+  position: relative;
+}
+.head .market-name a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 30px;
+  padding-top: 8px;
+}
+.head .market-name a img {
+  width: 15px;
+  height: 15px;
+}
+.head .market-name .envato {
+  color: white;
+}
+.head .market-name .market {
+  color: rgb(145, 194, 89);
+}
+.head .buy-now {
+  position: relative;
+  padding-top: 10px;
+}
+.head .buy-now button {
+  display: block;
+  margin: auto;
+  font-size: 14px;
+  position: absolute;
+  right: 30px;
+  width: 100px;
+  height: 35px;
+  background-color: rgb(101, 160, 42);
+}
+
+.breadmeal {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+.breadmeal a {
+  text-decoration: none;
+}
+.breadmeal .logo {
+  position: relative;
+}
+.breadmeal .logo img {
+  width: 174px;
+  height: 27px;
+}
+.breadmeal .logo a {
+  position: absolute;
+  left: 0px;
+  padding-top: 25px;
+}
+.breadmeal .bar ul {
+  padding-top: 25px;
+  padding-left: 0px;
+}
+.breadmeal .bar ul a {
+  font-size: 15px;
+  color: #7E5A4E;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.breadmeal .contact {
+  position: relative;
+}
+.breadmeal .contact .order {
+  position: absolute;
+  left: 160px;
+  padding-left: 10px;
+  background-color: #7E5A4E;
+  width: 260px;
+  height: 80px;
+}
+.breadmeal .contact .orders {
+  text-align: center;
+}
+.breadmeal .contact .phone-icon {
+  position: relative;
+  padding-top: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% 2px solid white;
+  left: 10px;
+}
+.breadmeal .contact .phone-icon i {
+  color: white;
+  font-size: 20px;
+}
+.breadmeal .contact .order-now {
+  padding-top: 10px;
+  position: relative;
+}
+.breadmeal .contact .order-now a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.breadmeal .contact .order-now a h4 {
+  position: relative;
+  top: 5px;
+  left: 6px;
+}
+.breadmeal .contact .order-now a p {
+  position: relative;
+  left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  width: 100%;
+  height: 362px;
+  opacity: 0s;
+  background-color: #0e0d0d;
+}
+.row .bread-logo {
+  background-image: url(https://newkit.moxcreative.com/breadmeal/wp-content/uploads/sites/6/2022/07/different-types-of-bread-with-spikelets-.jpg);
+}
+.row .bread-logo .text-info h2 {
+  color: white;
+  margin-top: 110px;
+  margin-left: 180px;
+  font-size: 70px;
+}
+.row .bread-logo .text {
+  color: white;
+  margin-top: 16px;
+  margin-left: 180px;
+  font-size: 23px;
+  font-family: Arial;
+}
+.row .bread-logo .text i {
+  color: rgb(206, 94, 14);
+  font-size: 25px;
+}
+
+.bakery {
+  background-image: url(https://newkit.moxcreative.com/breadmeal/wp-content/uploads/sites/6/2022/07/43.jpg);
+  width: 100%;
+  height: 80%;
+}
+.bakery .section-1 .sec {
+  width: 300px;
+  height: 200px;
+}
+.bakery .section-1 .sec img {
+  width: 300px;
+  height: 150px;
+}/*# sourceMappingURL=main.css.map */
